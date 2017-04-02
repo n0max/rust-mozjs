@@ -35,7 +35,8 @@ debugmozjs = ['mozjs_sys/debugmozjs']
 promises = ['mozjs_sys/promises']
 
 [dependencies.mozjs_sys]
-git = "https://github.com/servo/mozjs"
+git = "https://github.com/n0max/mozjs.git"
+branch="vs-2017-support"
 
 [dependencies]
 lazy_static = "0.2.1"
